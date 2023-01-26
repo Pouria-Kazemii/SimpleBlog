@@ -1,0 +1,57 @@
+[
+    {
+        "title": "first post",
+        "description": "this is a description about the first post.",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "second post",
+        "description": "this is a description about the second post.",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "third post",
+        "description": "this is the  third post for our website",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "fourth post",
+        "description": "this is the  fourth post for our website",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "fifth post",
+        "description": "this is the  fifth post for our website",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "fifth post",
+        "description": "this is the  fifth post for our website",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "fifth post",
+        "description": "this is the  fifth post for our website",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "this is another post",
+        "description": "this post is adding to our json file",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "a post to test the repository",
+        "description": "this post is going to test our repository",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "new post",
+        "description": "this is another new post",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    },
+    {
+        "title": "this post is a test for redirection",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat illum odio doloribus fugiat aut accusantium suscipit officiis, mollitia itaque tempora culpa officia facilis id nisi, sint laudantium? Nisi, eos. Doloremque!"
+    }
+]
