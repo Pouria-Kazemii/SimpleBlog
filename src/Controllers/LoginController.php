@@ -2,6 +2,7 @@
 
 namespace Src\Controllers;
 
+use Src\Repositories\MySqlUserRepository;
 use Src\Repositories\UserRepository;
 
 class LoginController {
@@ -9,13 +10,13 @@ class LoginController {
     private $userRepository;
 
     public function __construct(){
-        $this->userRepository = new UserRepository;
+        $this->userRepository = new MySqlUserRepository;
     }
 
     public function create(){
 
         if(authCheck()){
-            return redirect('posts', 'list');
+            return redirect('/posts');
         }
 
         return view('login/create');
@@ -27,20 +28,24 @@ class LoginController {
 
         $user = $this->userRepository->findByEmail($email);
 
-        if($user['password'] != $password){
-            return redirect('login', 'create');
+        if(empty($user)){
+            return redirect('/register');
+        }
+        
+        if($user->password != $password){
+            return redirect('/login');
         }
 
         login($user);
         
-        return redirect('posts', 'list');
+        return redirect('/posts');
     }
 
 
     public function destroy(){
         logout();
 
-        return redirect('home', 'list');
+        return redirect('/');
     }
 
 }

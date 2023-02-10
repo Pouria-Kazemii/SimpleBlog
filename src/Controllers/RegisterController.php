@@ -2,6 +2,7 @@
 
 namespace Src\Controllers;
 
+use Src\Repositories\MySqlUserRepository;
 use Src\Repositories\UserRepository;
 
 class RegisterController {
@@ -11,7 +12,7 @@ class RegisterController {
 
     public function __construct()
     {
-        $this->userRepository = new UserRepository;
+        $this->userRepository = new MySqlUserRepository;
         
     }
 

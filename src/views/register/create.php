@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col-6 mx-auto mt-5">
 
-        <form class="bg-white p-5 border rounded-2" action="?name=register&action=store" method="post">
+        <form class="bg-white p-5 border rounded-2" action="/register" method="post">
 
             <div class="form-group mb-2">
                 <label for="name">name :</label>

@@ -14,20 +14,20 @@
         <div class="row">
             <div class="col-12">
                 <div class="bg-white shadow p-2 my-3 rounded-2 border fw-bold menu d-flex justify-content-between">
-                    <a href="?name=home&action=list" class="text-decoration-none">Home</a>
-                    <a href="?name=posts&action=list" class="text-decoration-none">posts</a>
+                    <a href="/" class="text-decoration-none">Home</a>
+                    <a href="/posts" class="text-decoration-none">posts</a>
                     
                     <?php if(!authCheck()) : ?>
                         
-                        <a href="?name=login&action=create" class="text-decoration-none">login</a>
-                        <a href="?name=register&action=create" class="text-decoration-none">register</a>
+                        <a href="/login" class="text-decoration-none">login</a>
+                        <a href="/register" class="text-decoration-none">register</a>
 
                     <?php else : ?>
-                        <a href="?name=posts&action=create" class="text-decoration-none">create posts</a>
+                        <a href="/posts/create" class="text-decoration-none">create posts</a>
                         
                         <a>hello <?= getUser()?></a>
 
-                        <form action="?name=login&action=destroy" method="POST">
+                        <form action="/logout" method="POST">
                             <div class="form-group">
                                 <input type="submit" value="logout" class="btn btn-danger btn-sm">
                             </div>

@@ -1,14 +1,14 @@
 <?php
 
+use Src\Http\Router;
+
 session_start();
 
 require './vendor/autoload.php';
 
-$name = $_GET['name'] ?? 'home'; //posts
-$action = $_GET['action'] ?? 'list'; //show
-$index = $_GET['index'] ?? null;
+include('./src/routes/web.php');
 
-$controller  = 'Src\\Controllers\\' .ucfirst($name) . 'Controller';
+// Router::registerRoutes(include('./src/routes/web.php'));
 
-(new $controller())->$action($index);
+Router::find($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD']);
 

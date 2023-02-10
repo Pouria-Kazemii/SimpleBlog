@@ -8,19 +8,19 @@ function view($name, $data = null){
     require  './src/views/'. $name .'.php';
 }
 
-function redirect($name, $action){
-    header("Location:/index.php?name={$name}&action={$action}");
+function redirect($name){
+    header("Location:{$name}");
 }
 
-function login(array $user){
+function login(object $user){
 
-    $_SESSION[$user['email']] = $user['name'];
+    $_SESSION[$user->email] = $user->name;
 
-    setcookie('email', $user['email']);
+    setcookie('email', $user->email);
 }
 
 function authCheck(){
-    return isset($_SESSION[$_COOKIE['email']]);
+    return isset($_COOKIE['email']) and isset($_SESSION[$_COOKIE['email']]);
 }
 
 function getUser(){

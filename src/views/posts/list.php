@@ -2,7 +2,7 @@
 
 
     <div class="row">
-        <?php $index = 0; ?>
+        
 
         <?php foreach($posts as $post) : ?>
 
@@ -13,12 +13,12 @@
                 <article class="p-3 bg-white shadow rounded-2">
                     <h2 class="border-bottom pb-2"><?= $post->title ?></h2>
                     <p><?= $post->description ?></p>
-                    <a href="?name=posts&action=show&index=<?= $index ?>" class="btn btn-primary">read more...</a>
+                    <a href="?name=posts&action=show&index=<?= $post->id ?>" class="btn btn-primary">read more...</a>
                 </article>
 
             </div>
 
-            <?php $index++; ?>
+            
 
         <?php endforeach; ?>
 

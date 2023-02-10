@@ -3,7 +3,7 @@
 
 <div class="row">
     <div class="col-12">
-        <form class="bg-white shadow border rounded-2 p-3" action="?name=posts&action=store" method="POST">
+        <form class="bg-white shadow border rounded-2 p-3" action="/posts" method="POST">
             <h1>create new post</h1>
 
             <div class="form-group">
